@@ -1,9 +1,3 @@
-y a sorted array (haystack).
-
-// The function takes two parameters:
-// - haystack: an array of numbers that should be sorted in ascending order.
-// - needle: the number we want to find within the haystack.
-
 export default function bs_list(haystack: number[], needle: number): boolean {
     // Initialize two pointers, lo and hi, to define the search range within the haystack.
     let lo: number = 0;             // lo points to the first element in the array.
